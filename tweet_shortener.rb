@@ -5,7 +5,8 @@ def dictionary
     "too"=> "2",
     "two" => "2",
     "for"=>"4",
-    "four" => "4", 
+    "four" => "4",
+    "Four" => "4",
     'be' => "b",
     'you'=> "u",
     "at" =>"@",
@@ -34,7 +35,7 @@ end
 #
 def bulk_tweet_shortener (arr)
   arr.collect do |ele|
-    puts word_substituter(str)
+    puts word_substituter(ele)
   end
 end
 #
