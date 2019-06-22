@@ -15,6 +15,7 @@ end
 
 # Write your code here.
 def word_substituter (str)
+  dic= dictionary
   final= str.split (" ")
   
   final.collect do |word|
