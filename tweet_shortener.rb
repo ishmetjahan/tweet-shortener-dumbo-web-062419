@@ -40,3 +40,4 @@ end
 #
 #
 #
+def selective_tweet_shortener ()
