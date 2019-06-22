@@ -1,12 +1,14 @@
 # Write your code here.
 def word_substituter (str)
-  str.split (" ").map do |word|
-    if dictionary.keys.include? (word.downcase)
-      word = dictionary[word.downcase]
-    else
-      word
+  final= str.split (" ")
+  
+  final.collect do |word|
+    dictionary.collect do |key, value|
+      if word == key
+        word.replace (value)
+      end
     end
   end
-  str.join(" ")
+  final.join(" ")
   
 end
