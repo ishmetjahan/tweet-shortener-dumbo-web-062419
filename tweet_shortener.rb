@@ -1,3 +1,7 @@
+def dictionary
+  
+end
+
 # Write your code here.
 def word_substituter (str)
   final= str.split (" ")
