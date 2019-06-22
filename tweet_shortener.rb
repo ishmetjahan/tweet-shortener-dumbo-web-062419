@@ -12,8 +12,9 @@ def dictionary
     "and" => "&",
     }
 end
-
-# Write your code here.
+#
+#
+#
 def word_substituter (str)
   dic= dictionary
   final= str.split (" ")
@@ -28,3 +29,6 @@ def word_substituter (str)
   final.join(" ")
   
 end
+#
+#
+#
