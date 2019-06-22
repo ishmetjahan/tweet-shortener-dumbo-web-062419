@@ -50,4 +50,7 @@ end
 #
 #
 # 
-def shortened_tweet_truncator 
+def shortened_tweet_truncator (str)
+  if word_substituter(str).chars.length >140
+    
+end
