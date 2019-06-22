@@ -50,4 +50,4 @@ end
 #
 #
 # 
-def 
+def shortened_tweet_truncator
