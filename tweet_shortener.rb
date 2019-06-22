@@ -32,4 +32,6 @@ end
 #
 #
 #
-def 
+def bulk_tweet_shortener
+  
+end
